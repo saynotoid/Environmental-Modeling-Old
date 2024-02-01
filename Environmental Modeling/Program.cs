@@ -10,12 +10,16 @@ namespace Environmental_Modeling
             Console.Title = "Environmental Modeling";
             //Console.CursorVisible = false;
 
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
 
             Ocean myOcean = new Ocean();
             myOcean.Initialize();
+
             myOcean.Run();
 
+            
+
+            Console.WriteLine("press anykey to close app...");
             Console.ReadKey();
         }
     }

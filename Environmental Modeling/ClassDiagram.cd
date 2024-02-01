@@ -10,12 +10,12 @@
   <Class Name="Environmental_Modeling.Ocean">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEQAAIAEBwAAQABAEQCCAEAEAABAAAAAAAAACIAAAM=</HashCode>
+      <HashCode>AAESAAIAEBwAAQAJAEYCCAEQEAABBAAAAAACBCIBAAM=</HashCode>
       <FileName>Ocean.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Program" Collapsed="true">
-    <Position X="8.25" Y="7.75" Width="1.5" />
+  <Class Name="Environmental_Modeling.Program">
+    <Position X="9.5" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -23,38 +23,57 @@
   </Class>
   <Class Name="Environmental_Modeling.Cell">
     <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Environmental_Modeling.Cell.DisplayDelegate">
+        <TypeIdentifier>
+          <NewMemberFileName>Cell.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>ABCAAAAAAAAAEAAAIgAAAQIAEAAAQBAAAAIgAAABiAQ=</HashCode>
+      <HashCode>ABCAAAAAAAAAEAAAIgACAQIAEBAAQBAAAAIgAAAhiAQ=</HashCode>
       <FileName>Cell.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Environmental_Modeling.Prey">
     <Position X="4" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAgAAAQBAAAAAABAAgAAAAAAAgAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAEEAAAgAAAQBAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Prey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Environmental_Modeling.Predator">
-    <Position X="6" Y="3.5" Width="1.5" />
+    <Position X="4" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAGAAAAgAAAQAAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Predator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Environmental_Modeling.Obstacle">
-    <Position X="2.25" Y="5.75" Width="1.5" />
+    <Position X="2.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Obstacle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Coordinate">
-    <Position X="0.5" Y="7.25" Width="1.5" />
+  <Struct Name="Environmental_Modeling.Coordinate">
+    <Position X="7" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAIAAQAAAQAgAAAAAAAAAAAAIAAAAAAAAAAYiA=</HashCode>
       <FileName>Coordinate.cs</FileName>
     </TypeIdentifier>
-  </Class>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="System.IComparable&lt;T&gt;">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.IEquatable&lt;T&gt;">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
