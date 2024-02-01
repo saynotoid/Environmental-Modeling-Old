@@ -25,7 +25,7 @@ namespace Environmental_Modeling
             Console.WriteLine($"Parent notified: Mark = ");
         }
 
-        
+        //update git
 
 
         private int _numIterations = 1000;
