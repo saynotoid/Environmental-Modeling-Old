@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Security.Principal;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Program
     {

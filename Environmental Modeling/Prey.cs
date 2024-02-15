@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Prey : Cell
     {
@@ -27,7 +27,7 @@ namespace Environmental_Modeling
                 //toCell.Dispose();
                 Offset = to;
                 AssignCellAt(to, this);
-                AssignCellAt(from, new Cell(from));
+                //AssignCellAt(from, new Cell(from));
                 if (_timeToReproduce <= 0)
                 {
                     _timeToReproduce = TimeToReproduce;

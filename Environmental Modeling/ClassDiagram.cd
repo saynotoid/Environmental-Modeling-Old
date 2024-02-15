@@ -1,33 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Environmental_Modeling.Biome">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Biome.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Environmental_Modeling.Ocean">
+  <Class Name="Environmental_Modeling_Old.Ocean">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAESAAIAEBwAAQAJAEYCCAEQEAABBAAAAAACBCIBAAM=</HashCode>
       <FileName>Ocean.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Program">
+  <Class Name="Environmental_Modeling_Old.Program">
     <Position X="9.5" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Cell">
+  <Class Name="Environmental_Modeling_Old.Cell">
     <Position X="2.25" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Delegate Name="Environmental_Modeling.Cell.DisplayDelegate">
+      <Delegate Name="Environmental_Modeling_Old.Cell.DisplayDelegate" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>Cell.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -38,28 +31,35 @@
       <FileName>Cell.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Prey">
+  <Class Name="Environmental_Modeling_Old.Prey">
     <Position X="4" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEEAAAgAAAQBAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Prey.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Predator">
+  <Class Name="Environmental_Modeling_Old.Predator">
     <Position X="4" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAGAAAAgAAAQAAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Predator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Environmental_Modeling.Obstacle">
+  <Class Name="Environmental_Modeling_Old.Obstacle">
     <Position X="2.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Obstacle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="Environmental_Modeling.Coordinate">
+  <Class Name="Environmental_Modeling_Old.Biome">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Biome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Environmental_Modeling_Old.Coordinate">
     <Position X="7" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAQAAAQAgAAAAAAAAAAAAIAAAAAAAAAAYiA=</HashCode>

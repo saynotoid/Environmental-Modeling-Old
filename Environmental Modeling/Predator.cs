@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Predator : Prey
     {

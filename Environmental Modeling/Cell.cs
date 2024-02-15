@@ -5,9 +5,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using static Environmental_Modeling.Program;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Cell//: IDisposable
     {
@@ -28,7 +27,8 @@ namespace Environmental_Modeling
         public const char DEFAULT_IMAGE = '-';
         //make protected -> private via accessors
         //Ocean public???
-        public static Ocean ocean1;
+        //public static Ocean ocean1;
+        public Ocean ocean1;
         private Coordinate _offset;
         protected char _image;
         #endregion

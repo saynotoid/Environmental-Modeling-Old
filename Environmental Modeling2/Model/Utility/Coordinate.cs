@@ -4,44 +4,17 @@ using System.Linq;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
-using static System.Net.Mime.MediaTypeNames;
 
-namespace Environmental_Modeling_Old
+namespace Environmental_Modeling
 {
-    internal struct Coordinate: IComparable<Coordinate>, IEquatable<Coordinate>
+    public struct Coordinate: IComparable<Coordinate>, IEquatable<Coordinate>
     {
         #region fields
         private int _x;
         private int _y;
         #endregion
 
-        #region Constructors
-        public Coordinate(int x, int y)
-        {
-            _x = x;
-            _y = y;
-        }
-
-        public Coordinate()
-        {
-            _x = 0;
-            _y = 0;
-        }
-
-        public Coordinate(Coordinate coord)
-        {
-            _x = coord.X;
-            _y = coord.Y;
-        }
-
-        // implement IDisposable
-        //~Coordinate()
-        //{
-        //    throw new NotImplementedException();
-        //}
-        #endregion
-
-        #region Access Methods -> Properties
+        #region Properties
         public int X
         {
             get { return _x; }
@@ -52,6 +25,22 @@ namespace Environmental_Modeling_Old
         {
             get { return _y; }
             set { _y = value; }
+        }
+        #endregion
+
+        #region Constructors
+        public Coordinate(int x, int y)
+        {
+            _x = x;
+            _y = y;
+        }
+
+        public Coordinate() : this(0, 0)
+        {
+        }
+
+        public Coordinate(Coordinate coord) : this(coord.X, coord.Y)
+        {
         }
         #endregion
 

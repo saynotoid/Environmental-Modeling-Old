@@ -6,9 +6,8 @@ using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Environmental_Modeling.Program;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Ocean : Biome
     {
@@ -127,6 +126,7 @@ namespace Environmental_Modeling
                                 }
                                 //DisplayCell.Invoke();
                             }
+                            //Console.ReadKey();
                         }
                     }
                     DisplayIteration(iteration);
@@ -148,14 +148,19 @@ namespace Environmental_Modeling
         private void InitCells()
         {
             //Console.SetCursorPosition(0, 0);
-            Input();
+
+            //main input replaced with hardcoded defaults
+            _numObstacles = 0;
+            _numPredators = 25;
+            _numPrey = 100;
+            //Input();
 
             AddEmptyCells();
             AddObstacles();
             AddPredators();
             AddPrey();
 
-            Cell.ocean1 = this;
+            //Cell.ocean1 = this;
         }
 
         private void Input()

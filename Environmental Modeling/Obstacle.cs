@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Environmental_Modeling
+namespace Environmental_Modeling_Old
 {
     internal class Obstacle : Cell
     {
